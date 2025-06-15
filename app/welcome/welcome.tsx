@@ -1,5 +1,3 @@
-import logoDark from "./logo-dark.svg";
-import logoLight from "./logo-light.svg";
 import {
   Menubar,
   MenubarCheckboxItem,
@@ -14,7 +12,7 @@ import {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from "@/components/ui/menubar"
+} from '~/components/ui/menubar'
 
 export function Welcome({ message }: { message: string }) {
   return (
